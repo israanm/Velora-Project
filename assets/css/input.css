@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #2D1E17;
+    --color-secondary: #F7F1E8;
+    --color-main:#D0C5B5;
+    --font-jost: "Jost";
+    --font-garamond: "Cormorant Garamond";
+}
+
+@layer base {
+    body {
+        @apply bg-main;
+    }
+
+    .container {
+        @apply mx-auto;
+        @apply px-[5px];
+        @apply md:px-0;
+
+    }
+    a,button{
+        @apply cursor-pointer;
+    }
+}
+
+@utility row {
+    @apply flex items-center justify-center;
+}
