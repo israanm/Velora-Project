@@ -19,37 +19,37 @@
 <body>
     <nav class=" bg-secondary sticky top-0 z-50">
         <div class="2xl:w-[calc(100%-96px)] container row py-5 justify-between">
-            <div class="alt-icon lg:hidden flex">
-                <img class="w-5" src="./assets/icons/icon-menu.svg" alt="menu icon">
+            <div class="lg:hidden flex">
+                <img class="w-6" src="./assets/icons/icon-menu.svg" alt="menu icon">
             </div>
             <ul class="row gap-8 text-sm text-primary font-jost leading-4 tracking-[3.6px] hidden lg:flex">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="collection.html">Collections</a></li>
+                <li><a href="index.html" class="hover:scale-110">Home</a></li>
+                <li><a href="collection.html" class="hover:scale-110">Collections</a></li>
             </ul>
 
-            <div class="lg:text-[30px] text-[20px] text-primary tracking-[10px] uppercase font-garamond">
+            <div class="lg:text-[30px] text-[25px] text-primary tracking-[10px] uppercase font-garamond">
                 <a href="index.html">VELORA</a>
             </div>
 
             <ul class="row gap-6 hidden sm:flex">
                 <li class="hidden lg:flex">
                     <a href="#">
-                        <img src="./assets/icons/icon-search.svg" class="w-3" alt="search icon">
+                        <img src="./assets/icons/icon-search.svg" class="w-4 hover:scale-110" alt="search icon">
                     </a>
                 </li>
                 <li class="hidden lg:flex">
                     <a href="#">
-                        <img src="./assets/icons/icon-favorite.svg" class="w-3" alt="favorite icon">
+                        <img src="./assets/icons/icon-favorite.svg" class="w-4 hover:scale-110" alt="favorite icon">
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="./assets/icons/icon-cart.svg" class="lg:w-3 w-4" alt="cart icon">
+                        <img src="./assets/icons/icon-cart.svg" class="lg:w-3 w-4 hover:scale-110" alt="cart icon">
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="./assets/icons/icon-user.svg" class="lg:w-3 w-4" alt="user icon">
+                        <img src="./assets/icons/icon-user.svg" class="lg:w-4 w-5 hover:scale-110" alt="user icon">
                     </a>
                 </li>
             </ul>
@@ -66,14 +66,14 @@
                 class="font-garamond text-white italic capitalize text-[96px] max-md:text-[80px] leading-24 tracking-[-2.4px] mt-6 mb-10.5 max-md:mt-3 max-md:mb-6 text-center">
                 The Art of Being</h1>
             <a href="#collection"
-                class="text-[10px] text-white font-jost font-light leading-3.75 tracking-[3px] py-4 px-12 max-md:px-6 border hover:bg-white hover:text-primary transition-all duration-300 active:scale-[.95] inline-block ease-out">
+                class="text-[10px] text-white font-jost font-light leading-3.75 tracking-[3px] py-4 px-12 max-md:px-6 border hover:bg-main hover:text-primary transition-all duration-300 active:scale-[.95] ease-out hover:opacity-80">
                 EXPLORE COLLECTION
             </a>
         </div>
     </header>
     <main>
-        <section class="collection container 2xl:w-[calc(100%-96px)] py-32 max-md:py-22">
-            <h2 class="capitalize font-garamond text-primary text-6xl font-normal text-center mb-20 max-md:mb-10">
+        <section class="collection container 2xl:w-[calc(100%-96px)] py-30 max-md:py-22">
+            <h2 class="mb-20 max-md:mb-10">
                 Discover Our Collections</h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-8">
                 <a href="#" class="card group block relative overflow-hidden">
@@ -91,7 +91,7 @@
 
                 </a>
                 <a href="#" class="card group block relative overflow-hidden">
-                    <img src="./assets/images/home/bags-collection.webp" alt="luxury perfume collection"
+                    <img src="./assets/images/home/bags-collection.webp" alt="luxury bag collection"
                         class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-75">
                     <div
                         class="content absolute inset-0 row flex-col justify-end items-start ps-10 pb-10 gap-2 bg-black/30 transition-all duration-700 group-hover:bg-black/40 ">
@@ -105,7 +105,7 @@
 
                 </a>
                 <a href="#" class="card group block relative overflow-hidden">
-                    <img src="./assets/images/home/clothing-collection.webp" alt="luxury perfume collection"
+                    <img src="./assets/images/home/clothing-collection.webp" alt="luxury dress collection"
                         class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-75">
                     <div
                         class="content absolute inset-0 row flex-col justify-end items-start ps-10 pb-10 gap-2 bg-black/30 transition-all duration-700 group-hover:bg-black/40 ">
@@ -121,19 +121,18 @@
             </div>
         </section>
 
-        <section class="container 2xl:w-[calc(100%-96px)] py-32 max-md:py-22 border-t border-b border-[#E9DDCF]/80">
+        <section class="container 2xl:w-[calc(100%-96px)] py-30 max-md:py-22 border-t border-b border-[#E9DDCF]/80">
 
             <div class="text-center mb-16">
                 <p class="font-jost font-light text-xs leading-4 tracking-[4.8px] text-primary mb-3">
                     CURATED SELECTION
                 </p>
-                <h2 class="capitalize font-garamond font-medium text-6xl text-primary tracking-[-1.5] leading-15">
+                <h2 class="font-medium tracking-[-1.5] leading-15">
                     Trending Now
                 </h2>
             </div>
             <div class="cards grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-8 text-center">
-                <div
-                    class="card flex flex-col gap-8 bg-[#E9DDCF] p-6 group transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div class="card-00 group">
                     <div class="relative">
                         <img src="./assets/images/home/bag1.webp"
                             alt="Trending beige leather bag by VELORA, elegant luxury design"
@@ -155,14 +154,12 @@
                         </p>
                         <span class="pt-2 font-jost text-primary text-sm font-medium leading-5">$240</span>
                     </div>
-                    <button
-                        class="font-jost text-white text-[10px] font-light leading-3.75 tracking-[3px] py-4 px-[107.85px] bg-primary transition-all duration-300 hover:tracking-[4px] hover:font-medium">
+                    <button class="btn-1">
                         VIEW DETAILS
                     </button>
                 </div>
 
-                <div
-                    class="card flex flex-col gap-8 bg-[#E9DDCF] p-6 group transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div class="card-00 group">
                     <div class="relative">
                         <img src="./assets/images/home/dress.webp"
                             alt="Trending satin elegance dress by VELORA, luxury fashion piece"
@@ -183,14 +180,12 @@
                             CLOTHING </p>
                         <span class="pt-2 font-jost text-primary text-sm font-medium leading-5">$215</span>
                     </div>
-                    <button
-                        class="font-jost text-white text-[10px] font-light leading-3.75 tracking-[3px] py-4 px-[107.85px] bg-primary transition-all duration-300 hover:tracking-[4px] hover:font-medium">
+                    <button class="btn-1">
                         VIEW DETAILS
                     </button>
                 </div>
 
-                <div
-                    class="card flex flex-col gap-8 bg-[#E9DDCF] p-6 group transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <div class="card-00 group">
                     <div class="relative">
                         <img src="./assets/images/home/dress2.webp"
                             alt="Trending draped satin evening gown, luxury formal wear"
@@ -211,8 +206,7 @@
                             CLOTHING </p>
                         <span class="pt-2 font-jost text-primary text-sm font-medium leading-5">$420</span>
                     </div>
-                    <button
-                        class="font-jost text-white text-[10px] font-light leading-3.75 tracking-[3px] py-4 px-[107.85px] bg-primary transition-all duration-300 hover:tracking-[4px] hover:font-medium">
+                    <button class="btn-1">
                         VIEW DETAILS
                     </button>
                 </div>
@@ -252,19 +246,19 @@
                                 Since 1924
                             </span>
 
-                            <h2 class="font-garamond text-6xl italic text-primary font-medium leading-18 xl:max-w-sm ">
+                            <h2 class="text-start italic font-medium leading-18 xl:max-w-sm ">
                                 A Legacy of Quiet Luxury
                             </h2>
                         </div>
 
-                        <p class="font-jost font-light text-[18px] leading-7 text-[#4D463A] max-w-lg">
+                        <p class="text-[18px] leading-7 text-[#4D463A] max-w-lg">
                             For over a century, Velora has stood as a silent witness to the
                             evolving language of elegance. Born in the artisanal heart of
                             Florence, our house was founded on the principle that true luxury
                             whispered rather than shouted.
                         </p>
 
-                        <p class="font-jost font-light text-[18px] leading-7 text-[#4D463A] max-w-lg">
+                        <p class="text-[18px] leading-7 text-[#4D463A] max-w-lg">
                             Each piece is a testament to the patient hands of our craftsmen, who
                             blend ancestral techniques with a modern architectural sensibility.
                             We do not chase trends; we curate moments of permanence in an
@@ -286,7 +280,7 @@
         <section class="py-30 max-md:py-20">
             <div class="container 2xl:w-[calc(100%-96px)] text-center">
 
-                <h2 class="font-garamond text-6xl italic text-primary mb-20">
+                <h2 class="italic mb-20">
                     The Visionaries
                 </h2>
 
@@ -302,10 +296,7 @@
                       transition-all duration-700 ease-out
                       group-hover:border-transparent">
 
-                                <img src="./assets/images/home/designer1.webp" class="w-full h-full rounded-full object-cover
-                     transition-all duration-700 ease-out
-                     group-hover:scale-110 group-hover:-rotate-1
-                     group-hover:shadow-[0_25px_60px_rgba(26,23,20,0.35)]" />
+                                <img src="./assets/images/home/designer1.webp" class="avatar" />
 
                             </div>
                         </div>
@@ -315,7 +306,7 @@
                             Elena Velora
                         </h3>
 
-                        <p class="font-jost md:text-xs text-[16px] font-light tracking-[2.7px] leading-[13.5px] text-primary uppercase
+                        <p class=" md:text-xs text-[16px] tracking-[2.7px] leading-[13.5px] text-primary uppercase
                   opacity-60 transition-all duration-500
                   group-hover:opacity-100 group-hover:tracking-[3.5px] mt-2">
                             Creative Director
@@ -333,10 +324,7 @@
                       transition-all duration-700 ease-out
                       group-hover:border-transparent">
 
-                                <img src="./assets/images/home/designer2.webp" class="w-full h-full rounded-full object-cover
-                     transition-all duration-700 ease-out
-                     group-hover:scale-110 group-hover:-rotate-1
-                     group-hover:shadow-[0_25px_60px_rgba(26,23,20,0.35)]" />
+                                <img src="./assets/images/home/designer2.webp" class="avatar" />
 
                             </div>
                         </div>
@@ -346,7 +334,7 @@
                             Marco Santini
                         </h3>
 
-                        <p class="font-jost md:text-xs text-[16px] font-light tracking-[2.7px] text-primary uppercase
+                        <p class="md:text-xs text-[16px] tracking-[2.7px] text-primary uppercase
                   opacity-60 transition-all duration-500
                   group-hover:opacity-100 group-hover:tracking-[3.5px] mt-2">
                             Master Tailor
@@ -363,10 +351,7 @@
                       transition-all duration-700 ease-out
                       group-hover:border-transparent">
 
-                                <img src="./assets/images/home/designer3.webp" class="w-full h-full rounded-full object-cover
-                     transition-all duration-700 ease-out
-                     group-hover:scale-110 group-hover:-rotate-1
-                     group-hover:shadow-[0_25px_60px_rgba(26,23,20,0.35)]" />
+                                <img src="./assets/images/home/designer3.webp" class="avatar" />
 
                             </div>
                         </div>
@@ -376,7 +361,7 @@
                             Sofia Chen
                         </h3>
 
-                        <p class="font-jost md:text-xs text-[16px] font-light tracking-[2.7px] text-primary uppercase
+                        <p class="md:text-xs text-[16px] tracking-[2.7px] text-primary uppercase
                   opacity-60 transition-all duration-500
                   group-hover:opacity-100 group-hover:tracking-[3.5px] mt-2">
                             Lead Designer
@@ -393,10 +378,7 @@
                       transition-all duration-700 ease-out
                       group-hover:border-transparent">
 
-                                <img src="./assets/images/home/designer4.webp" class="w-full h-full rounded-full object-cover
-                     transition-all duration-700 ease-out
-                     group-hover:scale-110 group-hover:-rotate-1
-                     group-hover:shadow-[0_25px_60px_rgba(26,23,20,0.35)]" />
+                                <img src="./assets/images/home/designer4.webp" class="avatar" />
 
                             </div>
                         </div>
@@ -406,7 +388,7 @@
                             Julian Rossi
                         </h3>
 
-                        <p class="font-jost md:text-xs text-[16px] font-light tracking-[2.7px] text-primary uppercase
+                        <p class="md:text-xs text-[16px] tracking-[2.7px] text-primary uppercase
                   opacity-60 transition-all duration-500
                   group-hover:opacity-100 group-hover:tracking-[3.5px] mt-2">
                             Brand Director
@@ -417,22 +399,21 @@
             </div>
         </section>
 
-        <section class="py-32 max-md:py-22">
+        <section class="py-30 max-md:py-22">
             <div class="container 2xl:w-[calc(100%-96px)] text-center">
 
-                <h2 class="font-garamond text-6xl font-normal leading-15 tracking-[-1.5px] text-primary mb-4">
+                <h2 class="font-normal leading-15 tracking-[-1.5px] mb-4">
                     What People Say About VELORA
                 </h2>
 
                 <p
-                    class="font-jost text-xs leading-4 tracking-[2.4px] text-[#4D463A] uppercase mb-20 max-w-md text-center m-auto">
+                    class="text-xs leading-4 tracking-[2.4px] text-[#4D463A] uppercase mb-20 max-w-md text-center m-auto">
                     Reflections on an unparalleled journey through silent luxury and ancestral craftsmanship
                 </p>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-                    <div class="bg-[#E9DDCF] rounded-2xl p-12 flex flex-col h-full gap-8 text-left
-                        shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="card-01">
 
                         <div class="row justify-start">
                             <img src="./assets/icons/icon-star.svg" alt="rating">
@@ -457,16 +438,14 @@
                                 <h4 class="font-jost text-primary font-light text-[14px] leading-5 tracking-[0.53px]">
                                     Isabella V.
                                 </h4>
-                                <p
-                                    class="font-jost font-light text-[9px] tracking-[1.8px] leading-[13.5px] text-primary uppercase">
+                                <p class="text-[9px] tracking-[1.8px] leading-[13.5px] text-primary uppercase">
                                     Vogue Editor, Milan
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="bg-[#E9DDCF] rounded-2xl p-12 flex flex-col h-full gap-8 text-left
-                        shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="card-01">
 
                         <div class="flex justify-start gap-1">
                             <img src="./assets/icons/icon-star.svg" alt="rating">
@@ -488,20 +467,17 @@
                             <img src="./assets/images/home/designer2.webp" class="w-12 h-12 rounded-full object-cover">
 
                             <div>
-                                <h4 class="font-jost text-primary font-light text-[14px] leading-5 tracking-[0.53px]">
+                                <h4 class="text-primary text-[14px] leading-5 tracking-[0.53px]">
                                     Jameson Thorne
                                 </h4>
-                                <p
-                                    class="font-jost font-light text-[9px] tracking-[1.8px] leading-[13.5px] text-primary uppercase">
+                                <p class="text-[9px] tracking-[1.8px] leading-[13.5px] text-primary uppercase">
                                     Fashion Critic, London
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 3 -->
-                    <div class="bg-[#E9DDCF] rounded-2xl p-12 flex flex-col h-full gap-8 text-left
-                        shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="card-01">
 
                         <div class="flex justify-start gap-1">
                             <img src="./assets/icons/icon-star.svg" alt="rating">
@@ -526,8 +502,7 @@
                                 <h4 class="font-jost text-primary font-light text-[14px] leading-5 tracking-[0.53px]">
                                     Catherine L.
                                 </h4>
-                                <p
-                                    class="font-jost font-light text-[9px] tracking-[1.8px] leading-[13.5px] text-primary uppercase">
+                                <p class="text-[9px] tracking-[1.8px] leading-[13.5px] text-primary uppercase">
                                     Creative Consultant, Paris
                                 </p>
                             </div>
@@ -538,14 +513,14 @@
             </div>
         </section>
 
-        <section class="py-32 max-md:py-22">
+        <section class="py-30 max-md:py-22">
             <div class="container 2xl:w-[calc(100%-96px)] text-center">
 
-                <h2 class="font-garamond text-5xl tracking-[-1.2px] leading-12 italic text-primary mb-4">
+                <h2 class="text-5xl tracking-[-1.2px] leading-12 italic mb-4">
                     Join The Inner Circle
                 </h2>
 
-                <p class="font-jost text-xs font-light text-[#4D463A] leading-4 tracking-[2.4px] uppercase mb-12">
+                <p class="text-xs text-[#4D463A] leading-4 tracking-[2.4px] uppercase mb-12">
                     Subscribe for exclusive seasonal updates
                 </p>
 
@@ -563,50 +538,42 @@
 
             </div>
         </section>
-
-
-
     </main>
-    <footer class="bg-[#120E0C] text-secondary py-24 max-md:py-16">
-        <div
-            class="container 2xl:w-[calc(100%-96px)] text-center flex flex-col md:gap-6 justify-center items-center gap-3">
+    <footer class="bg-deep text-secondary py-16 max-md:py-12">
+        <div class="container 2xl:w-[calc(100%-96px)] text-center flex flex-col items-center gap-4">
 
-            <h2 class="font-garamond md:text-4xl text-3xl font-normal tracking-[15px] text-secondary">
+            <h2 class="text-3xl md:text-4xl tracking-[10px] text-secondary">
                 VELORA
             </h2>
 
-            <p
-                class="font-jost text-[8px] md:text-xs tracking-[1px] uppercase text-secondary md:mb-12 mb-6 leading-4 max-w-md font-extralight m-auto">
-                CURATING TIMELESS AESTHETICS AND WHISPERING THE LANGUAGE OF QUIET LUXURY TO THE MODERN SOUL.
+            <p class="text-[9px] md:text-xs tracking-[1.5px] uppercase text-secondary max-w-sm leading-4">
+                Curating timeless aesthetics and whispering the language of quiet luxury to the modern soul.
             </p>
 
             <nav
-                class="flex justify-center md:gap-12 gap-8 md:my-6 my-4 font-jost text-xs tracking-[3px] leading-3.75 uppercase text-secondary">
-                <a href="#" class="hover:text-white transition">Shop</a>
-                <a href="#" class="hover:text-white transition">Collections</a>
-                <a href="#" class="hover:text-white transition">Contact</a>
+                class="flex justify-center gap-8 md:gap-10 my-4 font-jost text-[11px] tracking-[3px] uppercase text-secondary">
+                <a href="#">Shop</a>
+                <a href="#">Collections</a>
+                <a href="#">Contact</a>
             </nav>
 
-            <div class="row gap-10 mb-10">
+            <div class="flex gap-6 mb-4">
                 <a href="#" class="hover:opacity-70 transition">
-
-                    <img src="./assets/icons/icon-facebook.svg" alt="facebook icon" class="w-6.25" />
-
+                    <img src="./assets/icons/icon-facebook.svg" alt="facebook icon" class="w-5" />
                 </a>
 
                 <a href="#" class="hover:opacity-70 transition">
-                    <!-- Instagram -->
-                    <img src="./assets/icons/icon-instagram.svg" alt="instagram icon" />
+                    <img src="./assets/icons/icon-instagram.svg" alt="instagram icon" class="w-5" />
                 </a>
             </div>
 
-
-            <p class="font-jost text-[8px] tracking-[3.2px] leading-3 text-secondary font-extralight uppercase mb-auto">
+            <p class="text-[9px] tracking-[2px] text-secondary/70 uppercase">
                 © 2026 VELORA — The Silent Curator
             </p>
 
         </div>
     </footer>
+
 </body>
 
 </html>

@@ -2,17 +2,23 @@
 
 @theme {
     --color-primary: #2D1E17;
+    --color-primary2:#1C1C19;
     --color-secondary: #F7F1E8;
     --color-main:#D0C5B5;
     --color-main2:#F5EFE7;
+    --color-deep:#120E0C;
     --font-jost: "Jost";
     --font-garamond: "Cormorant Garamond";
-    --breakpoint-xsm:
+    --font-noto:"Noto Serif";
+    --font-Montserrat:"Montserrat";
+   
+    
 }
 
 @layer base {
     body {
         @apply bg-main;
+        @apply text-primary;
     }
 
     .container {
@@ -20,12 +26,54 @@
         @apply px-1.25;
         @apply md:px-0;
 
+
     }
     a,button{
         @apply cursor-pointer;
     }
+a{
+    @apply transition duration-300 ease-in-out hover:opacity-70 inline-block;
+}
+h1{
+    @apply font-garamond;
+}
+h2{
+    @apply font-garamond;
+    @apply text-primary;
+    @apply text-5xl;
+    @apply capitalize;
+    @apply text-center;
+}
+p{
+    @apply font-jost;
+    @apply text-[10px];
+    @apply font-light;
+}
 }
 
 @utility row {
     @apply flex items-center justify-center;
+}
+
+@layer components {
+
+    .card-00{
+     @apply flex flex-col gap-8 bg-[#E9DDCF] p-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl;
+     
+    }
+
+   .card-01{
+    @apply bg-[#E9DDCF] rounded-2xl p-12 flex flex-col h-full gap-8 text-left
+                        shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300;
+   } 
+
+   .avatar{
+    @apply w-full h-full rounded-full object-cover
+                     transition-all duration-700 ease-out
+                     group-hover:scale-110 group-hover:-rotate-1
+                     group-hover:shadow-[0_25px_60px_rgba(26,23,20,0.35)];
+   }
+.btn-1{
+@apply font-jost text-white text-[10px] font-light leading-3.75 tracking-[3px] py-4 px-[107.85px] bg-primary transition-all duration-300 hover:tracking-[4px] hover:font-medium;
+}
 }
