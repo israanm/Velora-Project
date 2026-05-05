@@ -73,11 +73,396 @@
             </p>
         </div>
     </header>
+    <main>
+        <div class="my-5 border-b border-[#D8D0C5]">
+            <div
+                class="container mx-auto px-6 text-center row gap-12 text-xs tracking-[3px] uppercase text-primary2 font-garamond ">
+                <a href="#collection"
+                    class="pb-5 border-b-2 border-primary2 hover:font-extrabold hover:border-b-2 active:font-extrabold">Shop
+                    Individual</a>
+                <a href="#"
+                    class="pb-5 border-b-0 border-primary2 hover:font-extrabold hover:border-b-2 active:font-extrabold">Our
+                    Curated Looks</a>
+                <a href="#"
+                    class="pb-5 border-b-0 border-primary2 hover:font-extrabold hover:border-b-2 active:font-extrabold ">New</a>
+            </div>
+        </div>
 
-  
+        <section class="md:py-20 py-15 container 2xl:w-[calc(100%-96px)] text-center" id="collection">
+            <!-- TITLE -->
+            <div class="flex flex-col md:gap-3 gap-2 text-primary mb-17 ">
+                <p class="tracking-[4px] uppercase leading-3.75 font-normal">
+                    The Shop
+                </p>
+
+                <h1 class="font-garamond text-6xl font-normal italic ">
+                    All Collections
+                </h1>
+
+                <p class="tracking-[4px] text-muted leading-3.75 font-normal">
+                    120 Pieces
+                </p>
+            </div>
+
+            <div class="container mx-auto px-6 flex gap-12">
+
+                <aside
+                    class="flex-1/5 max-lg:flex-1 pr-8 text-primary2 font-jost text-xs font-normal p-3 max-md:hidden">
+
+                    <!-- CATEGORY -->
+                    <div class="mb-12 text-primary2">
+
+                        <h3 class="text-start tracking-[4px] uppercase pb-[9.5px] border-b border-[#A49B8F] mb-6">
+                            Category
+                        </h3>
+
+                        <ul class="space-y-4 text-muted text-xs">
+
+                            <!-- ALL -->
+                            <li>
+                                <label class="flex justify-between items-center cursor-pointer group">
+
+                                    <input type="radio" name="category" class="peer hidden" checked>
+
+                                    <span
+                                        class="peer-checked:text-primary2 peer-checked:font-bold transition-all duration-300 group-hover:scale-[1.03] group-hover:opacity-70">
+                                        All Collections
+                                    </span>
+
+                                    <span
+                                        class="text-[#A49B8F] text-xs peer-checked:text-primary2 transition-all duration-300 group-hover:scale-[1.03] group-hover:opacity-70">
+                                        120
+                                    </span>
+
+                                </label>
+                            </li>
+
+                            <!-- PERFUMES -->
+                            <li>
+                                <label class="flex justify-between items-center cursor-pointer group">
+
+                                    <input type="radio" name="category" class="peer hidden">
+
+                                    <span class="check">
+                                        Perfumes
+                                    </span>
+
+                                    <span class="text-[#A49B8F] text-xs check">
+                                        24
+                                    </span>
+
+                                </label>
+                            </li>
+
+                            <!-- BAGS -->
+                            <li>
+                                <label class="flex justify-between items-center cursor-pointer group">
+
+                                    <input type="radio" name="category" class="peer hidden">
+
+                                    <span class="check">
+                                        Bags
+                                    </span>
+
+                                    <span class="text-[#A49B8F] text-xs check">
+                                        18
+                                    </span>
+
+                                </label>
+                            </li>
+
+                            <!-- CLOTHING -->
+                            <li>
+                                <label class="flex justify-between items-center cursor-pointer group">
+
+                                    <input type="radio" name="category" class="peer hidden">
+
+                                    <span class="check">
+                                        Clothing
+                                    </span>
+
+                                    <span class="text-[#A49B8F] text-xs check">
+                                        78
+                                    </span>
+
+                                </label>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- PRICE RANGE -->
+                    <div class="mb-12">
+                        <h3 class="text-start tracking-[4px] uppercase pb-[9.5px] border-b border-[#A49B8F] mb-6">
+                            Price Range
+                        </h3>
+
+                        <input type="range" class="w-full h-0.5 bg-[#A49B8F] accent-primary2 appearance-none">
+
+                        <div class="flex justify-between text-[10px] mt-3">
+                            <span>$0</span>
+                            <span>$5,000+</span>
+                        </div>
+                    </div>
+
+                    <!-- BRAND -->
+                    <div class="mb-12">
+                        <h3 class="text-start tracking-[4px] uppercase pb-[9.5px] border-b border-[#A49B8F] mb-6">
+                            Brand
+                        </h3>
+
+                        <div class="space-y-4 text-muted text-xs">
+
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="checkbox" class="accent-primary2 peer">
+                                <span class="check">Velora</span>
+                            </label>
+
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="checkbox" class="accent-primary2 peer">
+                                <span class="check">Maison Noir</span>
+                            </label>
+
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="checkbox" class="accent-primary2 peer">
+                                <span class="check">Atelier 01</span>
+                            </label>
+
+                        </div>
+                    </div>
+
+                    <!-- GENDER -->
+                    <div>
+
+                        <h3 class="text-start tracking-[4px] uppercase pb-[9.5px] border-b border-[#A49B8F] mb-6">
+                            Gender
+                        </h3>
+
+                        <div class="space-y-4 text-muted text-xs">
+
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="radio" name="gender" class="peer accent-primary2" checked>
+                                <span class="check">
+                                    Women
+                                </span>
+                            </label>
+
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="radio" name="gender" class="peer accent-primary2">
+                                <span class="check">
+                                    Men
+                                </span>
+                            </label>
+
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="radio" name="gender" class="peer accent-primary2">
+                                <span class="check">
+                                    Unisex
+                                </span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+
+                <!-- PRODUCTS -->
+                <div class="flex-4/5 max-lg:flex-1/2">
+
+                    <!-- TOP BAR -->
+                    <div class="row md:justify-between gap-2 mb-10">
+                        <button
+                            class="md:hidden border px-20 py-3 text-[11px] tracking-[3px] leading-[16.5px] font-medium uppercase row gap-1.5 max-lg:text-[10px] max-lg:px-8 hover:bg-primary2 hover:text-[#8A8276] transition-all duration-700">
+                            Filters
+                        </button>
+                        <p class="tracking-[4px] text-[#8A8276] font-normal max-md:hidden">
+                            Showing 1–6 of 120 results
+                        </p>
+
+                        <button
+                            class="border px-13 py-3 text-[11px] tracking-[3px] leading-[16.5px] font-medium uppercase row gap-1.5 max-lg:text-[10px] max-lg:px-8 hover:bg-primary2 hover:text-[#8A8276] transition-all duration-700">
+                            <img src="./assets/icons/icon-sort.svg" alt="sort icon" />
+                            Sort by: Featured
+                        </button>
+
+                    </div>
+
+                    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-8">
+
+                        <!-- ITEM 1 -->
+                        <a href="product-details.html" class="group text-center block">
+
+                            <div class="overflow-hidden mb-6 flex justify-center">
+                                <img src="./assets/images/collection/perfume-01.webp"
+                                    alt="Luxury rose perfume bottle - Eclat de Rose Extrait"
+                                    class="h-90 w-70 object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                            </div>
+
+                            <p
+                                class="text-xs tracking-[3px] text-[#8A8276] uppercase font-garamond transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Perfume
+                            </p>
+
+                            <h3
+                                class="font-garamond text-xl font-medium transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Eclat de Rose Extrait
+                            </h3>
+
+                            <span
+                                class="text-xl font-garamond font-medium inline-block transition-all duration-500 ease-out group-hover:-translate-y-1 opacity-90 group-hover:opacity-100">
+                                $320.00
+                            </span>
+
+                        </a>
+
+
+                        <!-- ITEM 2 -->
+                        <a href="product-details.html" class="group text-center block">
+
+                            <div class="overflow-hidden mb-6 flex justify-center ">
+                                <img src="./assets/images/collection/coat-01.webp"
+                                    alt="Structured elegant wool cape in neutral tone"
+                                    class="h-90 w-70 object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                            </div>
+
+                            <p
+                                class="text-xs tracking-[3px] text-[#8A8276] uppercase font-garamond transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Velora
+                            </p>
+
+                            <h3
+                                class="font-garamond text-xl font-medium transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Structured Wool Cape
+                            </h3>
+
+                            <span
+                                class="text-xl font-garamond font-medium inline-block transition-all duration-500 ease-out group-hover:-translate-y-1 opacity-90 group-hover:opacity-100">
+                                $1850.00
+                            </span>
+
+                        </a>
+
+
+                        <!-- ITEM 3 -->
+                        <a href="product-details.html" class="group text-center block">
+
+                            <div class="overflow-hidden mb-6 flex justify-center">
+                                <img src="./assets/images/collection/dress-02.webp"
+                                    alt="Draped silk luxury evening dress from atelier collection"
+                                    class="h-90 w-70 object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                            </div>
+
+                            <p
+                                class="text-xs tracking-[3px] text-[#8A8276] uppercase font-garamond transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Velora
+                            </p>
+
+                            <h3
+                                class="font-garamond text-xl font-medium transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                The Atelier Draped Silk
+                            </h3>
+
+                            <span
+                                class="text-xl font-garamond font-medium inline-block transition-all duration-500 ease-out group-hover:-translate-y-1 opacity-90 group-hover:opacity-100">
+                                $2100.00
+                            </span>
+
+                        </a>
+
+
+                        <!-- ITEM 4 -->
+                        <a href="product-details.html" class="group text-center block">
+
+                            <div class="overflow-hidden mb-6 flex justify-center">
+                                <img src="./assets/images/collection/handbag-01.webp"
+                                    alt="Cognac leather structured designer handbag"
+                                    class="h-90 w-70 object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                            </div>
+
+                            <p
+                                class="text-xs tracking-[3px] text-[#8A8276] uppercase font-garamond transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Velora
+                            </p>
+
+                            <h3
+                                class="font-garamond text-xl font-medium transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Cognac Leather Frame
+                            </h3>
+
+                            <span
+                                class="text-xl font-garamond font-medium inline-block transition-all duration-500 ease-out group-hover:-translate-y-1 opacity-90 group-hover:opacity-100">
+                                $950.00
+                            </span>
+
+                        </a>
+
+
+                        <!-- ITEM 5 -->
+                        <a href="product-details.html" class="group text-center block">
+
+                            <div class="overflow-hidden mb-6 flex justify-center">
+                                <img src="./assets/images/collection/coat-03.webp"
+                                    alt="Classic archival trench coat with minimalist design"
+                                    class="h-90 w-70 object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                            </div>
+
+                            <p
+                                class="text-xs tracking-[3px] text-[#8A8276] uppercase font-garamond transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Velora
+                            </p>
+
+                            <h3
+                                class="font-garamond text-xl font-medium transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Archival Trench Coat
+                            </h3>
+
+                            <span
+                                class="text-xl font-garamond font-medium inline-block transition-all duration-500 ease-out group-hover:-translate-y-1 opacity-90 group-hover:opacity-100">
+                                $2400.00
+                            </span>
+
+                        </a>
+
+
+                        <!-- ITEM 6 -->
+                        <a href="product-details.html" class="group text-center block">
+
+                            <div class="overflow-hidden mb-6 flex justify-center">
+                                <img src="./assets/images/collection/dress-04.webp"
+                                    alt="Pleated sand-colored skirt with soft luxury fabric"
+                                    class="h-90 w-70 object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                            </div>
+
+                            <p
+                                class="text-xs tracking-[3px] text-[#8A8276] uppercase font-garamond transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Velora
+                            </p>
+
+                            <h3
+                                class="font-garamond text-xl font-medium transition-all duration-500 ease-out group-hover:-translate-y-1">
+                                Pleated Sand Skirt
+                            </h3>
+
+                            <span
+                                class="text-xl font-garamond font-medium inline-block transition-all duration-500 ease-out group-hover:-translate-y-1 opacity-90 group-hover:opacity-100">
+                                $780.00
+                            </span>
+
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
+
 
 
 </body>
 
 </html>
-
