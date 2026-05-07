@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class=" bg-[#D8D0C5]/20 fixed top-0 z-50 w-full">
+    <nav class=" bg-[#D8D0C5]/20 sm:fixed sticky top-0 z-50 w-full">
         <div class="2xl:w-[calc(100%-96px)] container row py-5 justify-between">
             <div class="lg:hidden flex">
                 <img class="w-6" src="./assets/icons/icon-menu.svg" alt="menu icon">
@@ -45,7 +45,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="link-hover">
+                    <a href="cart.html" class="link-hover">
                         <img src="./assets/icons/icon-cart.svg" class="lg:w-3 w-4 hover:scale-110" alt="cart icon">
                     </a>
                 </li>
@@ -60,31 +60,31 @@
     </nav>
 
 
-    <main class="h-screen relative  bg-[url(./../../assets/images/velora.webp)] bg-cover bg-left">
+    <main class="h-screen relative bg-[url(./../../assets/images/velora.webp)] bg-cover bg-left">
         <div
-            class="absolute z-10 flex items-center flex-1 xl:right-40 justify-end max-xl:left-30 top-[15%] max-sm:left-0">
-            <div class=" max-w-md bg-primary/50 backdrop-blur-md text-white py-10 px-20 rounded-2xl shadow-2xl ">
+            class="absolute z-10 flex items-center flex-1 xl:right-40 justify-end max-xl:left-30 top-[15%] max-sm:inset-0 ">
+            <div class="sm:max-w-md w-full max-sm:w-full max-sm:min-h-screen max-sm:rounded-none bg-primary/50 backdrop-blur-md text-white sm:py-10 px-20 max-sm:pt-25 rounded-2xl shadow-2xl">
 
-                <h2 class="text-3xl text-center font-garamond mb-4 text-white">Welcome Back</h2>
+                <h2 class="sm:text-3xl text-center font-garamond mb-4 text-white max-sm:4xl">Welcome Back</h2>
 
-                <p class="text-center text-xs uppercase tracking-[2px] text-white/60 mb-8">
+                <p class="text-center text-xs uppercase tracking-[2px] text-white/60 mb-8 max-sm:sm">
                     Enter your credentials to sign in
                 </p>
 
-                <div class="flex flex-col gap-6">
+                <div class="flex flex-col sm:gap-6 max-sm:gap-9">
 
                     <!-- Email -->
                     <div class="flex flex-col gap-1">
-                        <label class="text-xs text-white/60 uppercase tracking-[2px]">Email address</label>
+                        <label class="sm:text-xs text-white/60 uppercase tracking-[2px] max-sm:text-base">Email address</label>
                         <input type="email" placeholder="archive@velora.com"
-                            class="bg-transparent border-b border-white/30 py-2 outline-none uppercase text-xs font-light">
+                            class="bg-transparent border-b border-white/30 py-2 outline-none uppercase sm:text-xs font-light max-sm:text-sm">
                     </div>
 
                     <!-- Password -->
                     <div class="flex flex-col gap-1">
                         <div class="flex justify-between items-center">
-                            <label class="text-xs text-white/60 uppercase tracking-[2px] ">Password</label>
-                            <a href="#" class="text-xs text-white/50 hover:text-white transition uppercase">
+                            <label class="sm:text-xs text-white/60 uppercase tracking-[2px] max-sm:text-base">Password</label>
+                            <a href="#" class="sm:text-xs text-white/50 hover:text-white transition uppercase max-sm:text-sm">
                                 Forgot?
                             </a>
                         </div>
@@ -94,23 +94,23 @@
                     </div>
 
                     <button
-                        class="bg-white text-primary py-3 uppercase tracking-[3px] text-xs mt-4 font-medium hover:bg-primary hover:text-white">
+                        class="bg-white text-primary py-3 uppercase tracking-[3px] sm:text-xs mt-4 font-medium hover:bg-primary hover:text-white max-sm:text-base">
                         Sign In
                     </button>
 
                     <div class="flex items-center gap-3 my-2">
                         <div class="h-px bg-white/20 flex-1"></div>
-                        <p class="text-center text-xs text-white/60">OR</p>
+                        <p class="text-center sm:text-xs text-white/60 max-sm:text-base">OR</p>
                         <div class="h-px bg-white/20 flex-1"></div>
                     </div>
 
-                    <button class="underline py-3 uppercase tracking-[3px] text-xs link-hover">
+                    <button class="underline py-3 uppercase tracking-[3px] sm:text-xs link-hover max-sm:text-sm">
                         Create Account
                     </button>
 
                 </div>
 
-                <p class="text-center text-[16px] text-white/50 mt-6 italic max-w-60 mx-auto">
+                <p class="text-center sm:text-base text-white/50 mt-6 italic sm:max-w-60 mx-auto max-sm:text-xl max-sm:max-w-90">
                     "Where timeless elegance meets the silent whisper luxury."
                 </p>
 
