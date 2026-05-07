@@ -24,7 +24,7 @@
 
     .container {
         @apply mx-auto;
-        @apply px-1.25;
+        @apply px-1.5;
         @apply md:px-0;
 
 
